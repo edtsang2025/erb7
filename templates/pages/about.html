@@ -1,7 +1,7 @@
 {% extends 'base.html' %} {% block content %}
 
     <!-- Top Bar -->
-    <section id="top-bar" class="p-3">
+    {% comment %} <section id="top-bar" class="p-3">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -31,10 +31,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> {% endcomment %}
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    {% comment %} <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="assets/img/logo.png" class="logo" alt="" />
@@ -78,7 +78,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> {% endcomment %}
 
     <section id="showcase-inner" class="py-5 text-white">
       <div class="container">
@@ -216,9 +216,9 @@
     </section>
 
     <!-- Footer -->
-    <footer id="main-footer" class="py-4 bg-primary text-white text-center">
+    {% comment %} <footer id="main-footer" class="py-4 bg-primary text-white text-center">
       Copyright &copy;
       <span class="year"></span> BC Health Care
-    </footer>
+    </footer> {% endcomment %}
     
 {% endblock %}
